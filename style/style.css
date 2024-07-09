@@ -6,3 +6,73 @@
   font-weight: <weight>;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.desktop{
+    max-width: 1440px;
+}
+.nav-ber{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-name{
+    margin-left: 150px;
+}
+#download-resume{
+    margin-right: 166px;
+}
+.my-name >h3>a{
+    text-decoration: none;
+}
+/* header secssion */
+.hero-bg{
+    /* Hero-bg */
+position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+background-image: url(/assets/Hero-bg.png);
+background-repeat: no-repeat;
+padding-right: 0;
+}
+.banner-img{
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 221px;
+    margin-right: 221px;
+    margin-bottom: 44px;
+}
+.banner-text{
+    text-align: center;
+}
+.text-size{
+Font size : 48px;
+Font weight : 800;
+Line height : 68px;
+Letter spacing : 0%;
+Align : CENTER;
+Fill : Solid color;
+rgb(13, 19, 33);
+}
+.banner-description{
+Opacity : 0.7;
+Font family : Azeret Mono;
+Font style : Regular;
+Font size : 16px;
+Font weight : 400;
+Line height : 26px;;
+Letter spacing : 0%
+Align : CENTER;
+}
+.btn{
+Radius : 8px;
+Opacity : 1;
+rgb(13, 19, 33)
+}
