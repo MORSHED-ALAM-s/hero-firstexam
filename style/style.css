@@ -89,7 +89,7 @@ Letter-spacing : 0%;
 }
 /* inspiration */
 .inspiration{
-    height: 777px;
+    height: 600px;
     width: 1140px;
     margin: 12px auto;
     padding: 20px;
@@ -105,4 +105,34 @@ Letter-spacing : 0%;
 }
 .inspiration-containt iframe{
     border-radius: 35px;
+}
+/* Current target section */
+.current-target{
+    height: 600px;
+    width: 1140px;
+    margin: 12px auto;
+    padding: 20px;
+}
+.target-container{
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.html-padding{
+    width: 33%;
+    padding: 40px;
+}
+.html-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 15px;
+
+}
+.css-1{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 15px;
+}
+.javascript-1{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 15px;
 }
