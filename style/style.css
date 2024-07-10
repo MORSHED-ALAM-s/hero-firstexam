@@ -143,6 +143,7 @@ Letter-spacing : 0%;
     margin: 10px auto;
     background-image: url(../assets/handshake.jpg);
     border-radius: 15px;
+    
 }
 .support{
     color: #FFFFFF;
@@ -157,4 +158,17 @@ Letter-spacing : 0%;
 #submit{
     padding: 17px 20px;
     border-radius: 8px;
+}
+/* Footer section */
+.footer-section{
+    width: 1348px;
+    height: 80px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px 80px;
 }
