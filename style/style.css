@@ -136,3 +136,25 @@ Letter-spacing : 0%;
     background-color: rgba(255, 223, 0, 0.05);
     border-radius: 15px;
 }
+/* Supporrt section */
+.feed_back{
+    width: 1140px;
+    height: 314px;
+    margin: 10px auto;
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 15px;
+}
+.support{
+    color: #FFFFFF;
+    padding: 64px 48px;
+    line-height: 2;
+    
+}
+#text{
+    padding: 19px 215px 20px;
+    border-radius: 8px;
+}
+#submit{
+    padding: 17px 20px;
+    border-radius: 8px;
+}
