@@ -3,7 +3,6 @@
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 *{
@@ -11,7 +10,7 @@
     padding: 0;
 }
 .desktop{
-    max-width: 1440px;
+    max-width: 1348px;
 }
 .nav-ber{
     height: 130px;
@@ -29,15 +28,13 @@
     text-decoration: none;
 }
 /* header secssion */
+/* Hero-bg */
 .hero-bg{
-    /* Hero-bg */
-position: absolute;
-width: 1440px;
+width: 1348px;
 height: 652px;
 left: 0;
 right: 0;
 top: 131px;
-bottom: 4462px;
 background-image: url(../assets/Hero-bg.png);
 background-repeat: no-repeat;
 padding-right: 0;
@@ -53,26 +50,40 @@ padding-right: 0;
     text-align: center;
 }
 .text-size{
-Font size : 48px;
-Font weight : 800;
-Line height : 68px;
-Letter spacing : 0%;
-Align : CENTER;
-Fill : Solid color;
-rgb(13, 19, 33);
+Font-size : 48px;
+Font-weight : 800;
+Line-height : 68px;
+Letter-spacing : 0%;
 }
 .banner-description{
 Opacity : 0.7;
-Font family : Azeret Mono;
-Font style : Regular;
-Font size : 16px;
-Font weight : 400;
-Line height : 26px;;
-Letter spacing : 0%
-Align : CENTER;
+Font-family : Azeret Mono;
+Font-style : Regular;
+font-family : 16px;
+Font-weight : 400;
+line-clamp : 26px;
+Letter-spacing : 0%;
 }
 .btn{
-Radius : 8px;
-Opacity : 1;
-rgb(13, 19, 33)
+
+}
+/* Developer ssecssion */
+.devloper-secssion-main{
+    margin: 30px auto;
+    height: 1395px;
+    width: 1140px;
+
+}
+.devploer-secssion{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-dev{
+    width: 50%;
+    padding: 48px;
+}
+/* share style */
+.text-center{
+    text-align: center;
 }
